@@ -1,5 +1,6 @@
 * {
-    font-family: Roboto, sans-serif;
+    font-family: poppins;
+    margin: 0;
 }
 .wrapper {
     padding: 10px;
@@ -26,22 +27,18 @@
     align-items: center;
     margin-bottom: 10px;
 }
-
 .nav-arrow img {
     width: 20px;
     height: 20px;
 }
-
 .icon-section {
     display: flex;
     gap: 10px;
 }
-
 .heart-icon img, .menu-icon img {
     width: 20px;
     height: 20px;
 }
-
 #product-name {
     width: 100%;
     text-align: center;
@@ -81,6 +78,10 @@
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    object-position: 100% 0%;
+}
+.image-wrapper img:hover{
+    opacity: 75%;
 }
 .size-selection {
     width: 100%;
@@ -111,6 +112,9 @@
     color: gray;
     cursor: pointer;
 }
+.size-option:hover{
+    background-color: aqua;
+}
 .color-selection {
     width: 100%;
     margin-bottom: 10px;
@@ -138,20 +142,38 @@
 .color1 {
     background-color: #e9af97;
 }
+.color1:hover{
+    background-color: green;
+}
 .color2 {
     background-color: #a3bcea;
+}
+.color2:hover{
+    background-color: green;
 }
 .color3 {
     background-color: #d6b0e9;
 }
+.color3:hover{
+    background-color: green;
+}
 .color4 {
     background-color: #eba3ae;
+}
+.color4:hover{
+    background-color: green;
 }
 .color5 {
     background-color: #89bbc8;
 }
+.color5:hover{
+    background-color: green;
+}
 .color6 {
     background-color: #9edac0;
+}
+.color6:hover{
+    background-color: green;
 }
 .pricing-section {
     display: flex;
@@ -171,4 +193,9 @@
     border: 0;
     cursor: pointer;
     height: 30px;
+}
+.pricing-section button:hover{
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
 }
